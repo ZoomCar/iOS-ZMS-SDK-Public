@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
  # s.source_files = 'testSDK24/**'
    s.resource_bundle = {
-        'ZMSBundle' => ['ZMS/ZMS.framework/ZMSBundle.bundle/*.{xcassets,png,ttf,gif,json}']
+        'ZMSBundle' => ['ZMS.framework/ZMSBundle.bundle/*.{xcassets,png,ttf,gif,json}']
    }
 
   #s.resources = ['SDK/ZMS.framework/ZMSBundle.bundle/*.{xcassets,png,ttf,gif,json}']
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   # s.dependency 'zmsmpp', :path => '~/ZoomCar/ZmsMppDemo/mobile-zms-mpp/zmsmpp'  
    
   s.frameworks = 'Foundation', 'UIKit', 'CoreData'
-  s.vendored_frameworks = 'ZMS/ZMS.framework'
-  s.resources = [ "ZMS/ZMS.framework/ZoomcarSDKBundle.bundle/*.{nib,car}" ]
+  s.vendored_frameworks = 'ZMS.framework'
+  # s.resources = [ "ZMS.framework/ZoomcarSDKBundle.bundle/*.{nib,car}" ]
 
   s.xcconfig = {
    "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/cocos-binary\"",
