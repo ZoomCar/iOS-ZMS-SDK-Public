@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = 'ZMS'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'ZMS'
  
   s.description      = 'This is just a test SDK' 
   s.homepage         = 'https://github.com/ZoomCar/iOS-ZMS-SDK-Public'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zoomcar' => 'mobileapps@zoomcar.com' }
-  s.source            = { :http => 'https://github.com/ZoomCar/iOS-ZMS-SDK-Public/raw/main/demo-0.0.1/ZMS/ZMS.zip' }
+  s.source            = { :http => 'https://github.com/ZoomCar/iOS-ZMS-SDK-Public/raw/main/demo-0.0.2/ZMS/ZMS.zip' }
  
   s.ios.deployment_target = '12.0'
  # s.source_files = 'testSDK24/**'
